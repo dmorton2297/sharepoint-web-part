@@ -1,0 +1,24 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.squares {
+  .message {
+    @include ms-font-m;
+  }
+
+  .overlay {
+    background-color: red;
+    height: 100%;
+    z-index: 100;
+  }
+
+  .error {
+    @include ms-font-m;
+    color: $ms-color-alert;
+  }
+
+  .squaresList {
+    @include ms-Grid-row;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

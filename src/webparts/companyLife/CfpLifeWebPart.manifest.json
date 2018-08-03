@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "aa8b9263-69d0-4c0b-a59e-266d52d62c17",
+  "alias": "CfpLifeWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "CFPLife" },
+    "description": { "default": "CFP Life Web Part" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CFPLife"
+    }
+  }]
+}

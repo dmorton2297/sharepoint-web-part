@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dan-web-part-client-side-solution",
+    "id": "0051dc4b-571d-4ebf-9687-69e7986e31c2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/dan-web-part.sppkg"
+  }
+}
